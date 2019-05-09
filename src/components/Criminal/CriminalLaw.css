@@ -1,0 +1,72 @@
+.container {
+    /* background-color: red; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text-main {
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    width: 1200px;
+    margin: 60px 30px 0px 30px;
+    
+}
+
+.practice-header {
+    font-size: 45px;
+    font-family: Playfair Display;
+    color: #3d3d3d;
+    margin-bottom: 20px;
+
+}
+
+.practice-info {
+    font-family: Open Sans;
+    line-height: 25px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+
+.practice-info-big {
+    font-family: Open Sans;
+    line-height: 25px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+.practice-image {
+    width: 350px;
+    height: auto;
+    margin: 0px 20px 20px 0px;
+}
+
+
+.ctabtn {
+    background-color: #84bac2 ; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Poppins;
+    /* width: 100%; */
+    cursor: pointer;
+    border-style: none;
+    letter-spacing: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .button-container {
+      width: 100%;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      /* background-color: red; */
+  }

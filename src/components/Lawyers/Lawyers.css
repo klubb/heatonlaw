@@ -1,0 +1,134 @@
+.lawyer-container {
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.lawyer-text {
+    
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: pink; */
+}
+
+.rightside {
+    display: flex;
+    align-items: flex-end;
+    /* background-color: blue; */
+    width: 95%;
+    flex-direction: column;
+    margin: 25px 0px 75px 0px;
+}
+
+.border-right {
+    border-right: solid 4px #eaeaea;
+    padding-right: 25px;
+    margin-left: 30px;
+}
+
+.whychoose {
+    font-family: Open Sans;
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: #3d3d3d;
+    width: 40vw;
+    text-align: right;
+}
+
+.lawyerheading {
+    font-size: 50px;
+    margin-bottom: 50px;
+    font-family: Playfair Display;
+}
+
+.lawyer-info-container {
+/* background-color: pink; */
+display: flex;
+margin: 35px;
+width: 20vw;
+flex-direction: column;
+align-items: center;
+
+}
+
+.lawyer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 15px;
+    /* background-color: red; */
+}
+
+.profilebtn {
+    background-color: #84bac2 ; 
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Poppins;
+    width: 50%;
+    cursor: pointer;
+    border-style: none;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.lawyerflex {
+    display: flex;
+    /* background-color: pink; */
+    
+    justify-content: space-between;
+}
+
+.lawyercolumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+}
+.lawyername {
+    font-size: 26px;
+    font-family: Playfair Display;
+
+}
+
+.lawyerpractice {
+    font-family: Open Sans;
+    margin-bottom: 10px;
+    line-height: 25px;
+    color: #3d3d3d;
+}
+
+.ctabanner {
+    width: 100%;
+    background-color: #373737;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ctaeval {
+    font-size: 26px;
+    font-family: Helvetica;
+    font-weight: bolder; 
+    color: white;
+    opacity: .8;
+}
+
+
+
+
+
+@media (max-width: 1171px) {
+    .lawyerflex {
+        flex-direction: column;
+    }
+}

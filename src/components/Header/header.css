@@ -1,0 +1,205 @@
+.navbarContainer {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: #84bac2 solid 3px;
+    position: fixed;
+    top: 4vh;
+    background-color: white;
+    z-index: 100;
+}
+
+.blackheader {
+    background-color: #373737;
+    height: 4vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: Poppins;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.spacer {
+  width: 32vw;
+  
+}
+
+
+.phone {
+    background-color: #84bac2;
+    width: 250px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Open Sans;
+    font-weight: bold;
+   
+    
+    
+}
+
+.phone h1 {
+    margin-left: 15px;
+}
+
+.blackheader > h1 {
+    font-size: 12px;
+    opacity: .5;
+
+}
+
+
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+.navLinks {
+    display: flex;
+    font-family: Poppins;
+    cursor: pointer;
+    font-size: 18px;
+    
+}
+
+.navLinks li:hover {
+    color: red;
+}
+
+/* .dropbtn  {
+    font-family: Open Sans;
+    color: #a6a7a9;
+    background-color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+   */
+
+  /* .dropbtn:hover {
+    color: #84bac2;
+  }
+   */
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+    
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+      
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    padding: 20px;
+    
+    
+    
+  }
+
+  .active {
+    
+    border-bottom: #84bac2 solid 2px;
+  }
+
+  a:visited {
+    color: inherit;
+}
+ 
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {color: cadetblue;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+      display: block;
+     
+      
+      
+    }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  
+  .hvr-fade {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    /* overflow: hidden; */
+    -webkit-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+    color: #84bac2;
+    
+  }
+
+  .hvr-shutter-out-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  background: #e1e1e1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-shutter-out-horizontal:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #2098D1;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active {
+  color: white;
+}
+.hvr-shutter-out-horizontal:hover:before, .hvr-shutter-out-horizontal:focus:before, .hvr-shutter-out-horizontal:active:before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+

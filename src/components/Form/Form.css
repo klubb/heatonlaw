@@ -1,0 +1,154 @@
+
+  
+  .form-container {
+    
+    background: url('./lawyer2.jpg') no-repeat;
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    
+  }
+
+
+  .form-text {
+      
+      margin-left: 18vw;
+  }
+
+  .form-header {
+      font-size: 75px;
+      font-family: Playfair Display;
+      margin-bottom: 25px;
+      color: white;
+      
+  }
+
+  .form-subheader {
+      font-size: 30px;
+      color: white;
+      font-family: Open Sans;
+      width: 42vw;
+     
+  }
+
+  .form-info {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    width: 1300px;
+    margin: 50px 20px 0px 20px;
+    flex-direction: column;
+    
+  }
+
+  .form-info-container {
+    display: flex;
+    /* background-color: pink; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+
+  .testing {
+    display: flex;
+    
+    /* background-color: aqua; */
+  }
+
+  .form-p {
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-bottom: 60px;
+    line-height: 25px;
+    
+  }
+
+  .input-container {
+    /* background-color: purple; */
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  .form-location {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .location {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: Playfair Display;
+    
+    
+   
+  }
+ 
+  select {
+    width: 98%;
+    
+    border: #ececec solid 2px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    outline-style: none;
+    padding: 10px;
+    font-family: Arial;
+    margin-bottom: 26px;
+  }
+
+  input[type=text] {
+    width: 95%;
+    
+    border: #ececec solid 2px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    outline-style: none;
+    padding: 10px;
+    
+  }
+
+  .form-input {
+      margin-bottom: 26px;
+  }
+
+  .form-textarea {
+      height: 150px;
+      margin-bottom: 26px;
+  }
+
+  .submitbtn {
+    background-color: #84bac2 ; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Poppins;
+  width: 80%;
+  cursor: pointer;
+  border-style: none;
+  letter-spacing: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  textarea {
+    width: 95%;
+    
+    border: #ececec solid 2px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    outline-style: none;
+    padding: 10px;
+    font-family: Arial;
+    
+    
+  }
