@@ -129,7 +129,7 @@
     background-color: #f5f5f5;
     
     border-radius: 4px;
-    /* margin: 15px; */
+    
 }
 
 .readmore {
@@ -185,6 +185,14 @@
         grid-column-start: span 1;
     }
   }
+
+  @media (max-width: 450px) {
+    .text-container {
+        width: 95%;
+        
+    }
+  }
+
 
  
 

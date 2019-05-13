@@ -38,6 +38,7 @@
   display: flex; 
   align-items: flex-start;
   flex-direction: column;
+  /* background-color: red; */
   
 }
 
@@ -47,6 +48,7 @@
   /* font-family: Roboto; */
   width: 40vw;
 font-family: Playfair Display;
+/* background-color: pink; */
 }
 
 .slideinfo {
@@ -58,6 +60,7 @@ font-family: Playfair Display;
   text-shadow: 1px 1px 1px rgb(0,0,0, 0.5);
  line-height: 25px;
  font-weight: 500;
+ /* background-color: blue; */
 }
 
 .slidebtn {
@@ -172,11 +175,66 @@ font-family: Playfair Display;
   }
 
   .slideinfo {
-    width: 40vw;
+    width: 50vw;
   }
 
   .slidebtn {
     letter-spacing: 1px;
     padding: 15px 15px;
+  }
+
+
+}
+
+
+@media (max-width: 655px) {
+  .mainslide {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 950px) {
+    .slideheading {
+      width: 70vw;
+    }
+    .slideinfo {
+      width: 60vw;
+    }
+}
+
+@media (max-width: 560px) {
+    .slideheading {
+      font-size: 60px;
+      /* text-align: center; */
+    }
+
+    .slideinfo {
+        font-size: 16px;
+        width: 75%;
+        
+    }
+
+    .slidebtn {
+      
+      padding: 10px;
+      
+      font-size: 12px;
+      
+    }
+
+    .mainslide {
+      height: 50vh;
+      justify-content: center;
+    }
+
+    .slide-text {
+      align-items: center;
+      margin-left: 0;
+    }
+}
+
+@media (max-width: 410px) {
+  .slideheading {
+    font-size: 50px;
   }
 }

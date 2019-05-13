@@ -70,3 +70,16 @@ a, .contact-info {
 .italic {
 	font-style: italic;
 }
+
+a {
+	text-decoration: none;
+}
+
+@media(max-width: 748px) {
+	body {
+		margin-top: 11vh;
+	}
+  
+	
+	
+  }
