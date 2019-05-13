@@ -71,7 +71,7 @@ import axios from 'axios';
                      
                    <div className='input-container'>
                    
-                     <form action="https://formspree.io/kalebamanley@gmail.com" method="POST"  >
+                     <form className='input-form' action="https://formspree.io/kalebamanley@gmail.com" method="POST"  >
                      <input type="hidden" name="_subject" value="New submission!" />
                  <input  onChange={this.handleChange} name='name' value={this.state.name} className='form-input' placeholder='Full Name'type="text" required/>
                  <input onChange={this.handleChange} name='email' value={this.state.email}className='form-input' placeholder='Email'type="text" required/>
@@ -82,6 +82,7 @@ import axios from 'axios';
                  <option value="Litigation">Litigation</option>
                  <option value="Auto Accident">Auto Accident</option>
                  <option value="Personal Injury">Personal Injury</option>
+                 <option value="Not Sure">Not Sure</option>
                   </select>
                  <textarea onChange={this.handleChange} name = 'message' value={this.state.message} className='form-textarea' placeholder='How Can We Help?' type="text" required/>
                      

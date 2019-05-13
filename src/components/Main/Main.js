@@ -12,7 +12,7 @@ import { FaBalanceScale, FaCarCrash, FaUsers, FaFileContract, FaCopyright, FaUse
                 <div>
             <div className="maincontainer">
             <h1 className='mainheader'>We are the best law firm based in Utah County </h1>
-            <hr className='main-spacer'/>
+            <hr className='main-spacer2'/>
                <div className='text-container'>
                
                     
@@ -58,7 +58,7 @@ import { FaBalanceScale, FaCarCrash, FaUsers, FaFileContract, FaCopyright, FaUse
                         </div>
                                 
 
-                        <div className="blockcontainer">
+                        {/* <div className="blockcontainer">
                         <div className='blocktop'>
 
                         <h1 className='blockheader'>Family Law</h1>
@@ -96,7 +96,7 @@ import { FaBalanceScale, FaCarCrash, FaUsers, FaFileContract, FaCopyright, FaUse
                         
                         </div>
                         <p className='info borderr'>Dreamcatcher godard kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillery literally authentic air plant. <br/><Link className='hvr-underline-reveal readmore ' to="/criminal/">Read more...</Link> </p>
-                        </div>
+                        </div> */}
 
                         
 

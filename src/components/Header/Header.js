@@ -26,9 +26,10 @@ const activeStyles = {
                 
 
                 <h1>  Our office hours are 6AM - 5PM. Mon-Fri.</h1>
+                <div className='divspacer'></div>
                 <div className="spacer"></div>
                 <div className='phone'>
-                <FaPhone /> <h1>(801) -709-4117</h1>
+                <FaPhone /> <h1> (801) -709-4117</h1>
                 </div>
                 
                 
@@ -65,12 +66,12 @@ const activeStyles = {
             </div>
 
             <div class="dropdown">
-            <Link activeClassName='active' to="/contact">Contact</Link>
+            <Link partiallyActive={true} activeClassName='active' to="/contact">Contact</Link>
                     
             </div>
 
             <div class="dropdown">
-                    <span class="dropbtn hvr-fade">Blog</span>
+            <Link partiallyActive={true} activeClassName='active' to="/blog">Blog</Link>
                     
             </div>
             

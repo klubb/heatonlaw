@@ -29,9 +29,9 @@ body {
 	line-height: 1;
 	margin-top: 15vh;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -56,13 +56,17 @@ button {
 	font-size: 100px;
 }
 
-.test {
-	font-size: 500px;
-}
+
 
 a, .contact-info {
 	text-decoration: none;
 	margin: 5px 0 5px 0;
 }
 
+::selection {
+	background: #84bac2;
+}
 
+.italic {
+	font-style: italic;
+}

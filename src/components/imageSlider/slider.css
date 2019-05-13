@@ -25,7 +25,7 @@
   align-items: center;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
 .mainimage {
@@ -53,11 +53,11 @@ font-family: Playfair Display;
   color: white;
   font-family: Open Sans;
   width: 28vw;
-  font-size: 20px;
+  font-size: 22px;
   font-style: normal;
- opacity: .9;
+  text-shadow: 1px 1px 1px rgb(0,0,0, 0.5);
  line-height: 25px;
- font-weight: 300;
+ font-weight: 500;
 }
 
 .slidebtn {

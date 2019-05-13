@@ -1,0 +1,72 @@
+.about-image {
+    background-image: url('../../images/partner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position-y: 20%;
+    margin-bottom: 50px;
+}
+
+
+
+.about-text {
+    display: flex;
+    margin-left: 18vw;
+    flex-direction: column;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 68%;
+    /* background-color :red; */
+    margin-bottom: 50px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-p {
+    font-family: Open Sans;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 25px;
+}
+
+.about-h1 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.aboutbtn {
+background-color: #84bac2 ; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Poppins;
+  width: 290px;
+  margin: 15px;
+  cursor: pointer;
+  border-style: none;
+  letter-spacing: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  .list-item {
+      font-family: Open Sans;
+    /* list-style-type: circle; */
+    margin-left: 28px;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }

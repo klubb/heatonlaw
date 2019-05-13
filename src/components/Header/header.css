@@ -1,5 +1,5 @@
 .navbarContainer {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
     height: 11vh;
     width: 100%;
     display: flex;
@@ -13,7 +13,7 @@
 }
 
 .blackheader {
-    background-color: #373737;
+    background-color: rgba( 63,63,63, 1);
     height: 4vh;
     display: flex;
     color: white;
@@ -32,6 +32,10 @@
   
 }
 
+.divspacer {
+  margin-left: 300px;
+}
+
 
 .phone {
     background-color: #84bac2;
@@ -40,8 +44,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    right: 25%;
     font-family: Open Sans;
-    font-weight: bold;
+    font-weight: 500;
    
     
     
@@ -65,15 +71,14 @@
 
 .navLinks {
     display: flex;
-    font-family: Poppins;
+    font-family: Open Sans;
     cursor: pointer;
     font-size: 18px;
-    
+    /* background-color: red; */
+    align-items: center;
 }
 
-.navLinks li:hover {
-    color: red;
-}
+
 
 /* .dropbtn  {
     font-family: Open Sans;
@@ -115,6 +120,7 @@
   .active {
     
     border-bottom: #84bac2 solid 2px;
+    padding: 3px;
   }
 
   a:visited {

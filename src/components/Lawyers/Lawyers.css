@@ -13,21 +13,24 @@
     align-items: center;
     flex-direction: column;
     /* background-color: pink; */
+    margin-bottom: 50px;
 }
+
+
 
 .rightside {
     display: flex;
     align-items: flex-end;
     /* background-color: blue; */
-    width: 95%;
+    width: 100%;
     flex-direction: column;
-    margin: 25px 0px 75px 0px;
+    margin-bottom: 75px;
 }
 
 .border-right {
     border-right: solid 4px #eaeaea;
     padding-right: 25px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
 }
 
 .whychoose {
@@ -35,31 +38,34 @@
     margin-bottom: 10px;
     line-height: 25px;
     color: #3d3d3d;
-    width: 40vw;
+    width: 50vw;
     text-align: right;
 }
 
 .lawyerheading {
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     font-family: Playfair Display;
+    text-align: center;
 }
 
 .lawyer-info-container {
-/* background-color: pink; */
+/* background-color: red; */
+width: 260px;
 display: flex;
-margin: 35px;
-width: 20vw;
+/* margin: 35px; */
+/* width: 20vw; */
 flex-direction: column;
-align-items: center;
+/* align-items: center; */
+margin: 0px 5px 20px 5px;
 
 }
 
 .lawyer-info {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-left: 20px;
+    /* align-items: center; */
+    /* margin-left: 20px; */
     margin-top: 15px;
     /* background-color: red; */
 }
@@ -73,7 +79,7 @@ align-items: center;
     text-transform: uppercase;
     font-size: 12px;
     font-family: Poppins;
-    width: 50%;
+    width: 100px;
     cursor: pointer;
     border-style: none;
     letter-spacing: 1px;
@@ -81,22 +87,27 @@ align-items: center;
 }
 .lawyerflex {
     display: flex;
-    /* background-color: pink; */
-    
-    justify-content: space-between;
+    /* background-color: palevioletred; */
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.portrait {
+    width: 225px;
+    height: auto;
 }
 
 .lawyercolumn {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center; */
     margin-top: 15px;
 }
 .lawyername {
     font-size: 26px;
     font-family: Playfair Display;
-
+    margin-bottom: 10px;
 }
 
 .lawyerpractice {
@@ -104,6 +115,7 @@ align-items: center;
     margin-bottom: 10px;
     line-height: 25px;
     color: #3d3d3d;
+   width: 260px;
 }
 
 .ctabanner {
@@ -127,8 +139,10 @@ align-items: center;
 
 
 
-@media (max-width: 1171px) {
+@media (max-width: 860px) {
     .lawyerflex {
         flex-direction: column;
+        align-items: center;
+        
     }
 }

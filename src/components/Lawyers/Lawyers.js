@@ -12,7 +12,10 @@ export default class Lawyers extends Component {
         <div className='rightside'>
 
           <h1 className='lawyerheading'>Why Choose Heaton Law?</h1>
-          <p className='whychoose border-right'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi rem nisi accusantium quibusdam voluptates dolore soluta in expedita officiis quisquam asperiores suscipit reiciendis rerum, ducimus est consequuntur corporis minus magni corporis minus magni corporis minus magnicorporis minus magni accusantium quibusdam voluptates dolore soluta in accusantium quibusdam voluptates dolore soluta in.</p>
+          <p className='whychoose border-right'>Dreamcatcher godard kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillery literally authentic air Dreamcatd kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillery literally authentic air plant. Dreamcatcher godard kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillery literally authentic air plant. <br/><br/> Dreamcatcher godard kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillery literally authentic air plant.Dreamcatcher godard kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillerythentic air plant.Dreamcatcher godard kogi sartorial, vinyl poutine wayfarers tbh art party health goth echo park fashion axe kitsch farm-to-table. Chicharrones distillery literally authentic air plant. </p>
+
+         
+          
 
         </div>
         {/* <hr className='main-spacer'/> */}
@@ -21,16 +24,17 @@ export default class Lawyers extends Component {
           </div>
 
           <div className="lawyerflex">
+          
             <div className="lawyer-info-container">
               <div className="portrait">
-                <img src={Portrait} alt="" />
+                <img className="portrait" src='https://mllj2j8xvfl0.i.optimole.com/w:260/h:260/q:90/rt:fill/g:ce/https://s20206.pcdn.co/wp-content/uploads/sites/74/2016/05/Unknown-3.jpeg' alt="" />
               </div>
               <div className="lawyer-info">
-                <span className="lawyername">John Doe</span>
 
                 <div className="borderr lawyercolumn">
-                <span className="lawyerpractice">Criminal Law Expert</span>
-                  <span className="lawyerpractice">20 years experience representing criminal law cases</span>
+                <span className="lawyername">John Doe</span>
+                <p className="lawyerpractice italic">Criminal Law Expert</p>
+                  {/* <span className="lawyerpractice">20 years experience representing criminal law cases</span> */}
 
                   <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
                 </div>
@@ -38,15 +42,15 @@ export default class Lawyers extends Component {
             </div>
 
             <div className="lawyer-info-container">
-              <div className="portrait">
-                <img src={Portrait} alt="" />
+              <div >
+                <img className="portrait" src='https://mllj2j8xvfl0.i.optimole.com/w:260/h:260/q:90/rt:fill/g:ce/https://s20206.pcdn.co/wp-content/uploads/sites/74/2016/05/Unknown.jpeg' alt="" />
               </div>
               <div className="lawyer-info">
-                <span className="lawyername">John Doe</span>
 
                 <div className="borderr lawyercolumn">
-                <span className="lawyerpractice">Civil Litigation Expert</span>
-                  <span className="lawyerpractice">20 years experience representing civil litigation cases</span>
+                <span className="lawyername">John Doe</span>
+                <span className="lawyerpractice italic">Civil Litigation Expert</span>
+                  {/* <span className="lawyerpractice">20 years experience representing civil litigation cases</span> */}
 
                   <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
                 </div>
@@ -54,15 +58,15 @@ export default class Lawyers extends Component {
             </div>
 
             <div className="lawyer-info-container">
-              <div className="portrait">
-                <img src={Portrait} alt="" />
+              <div >
+                <img className="portrait" src='https://mllj2j8xvfl0.i.optimole.com/w:260/h:260/q:90/rt:fill/g:ce/https://s20206.pcdn.co/wp-content/uploads/sites/74/2016/05/Unknown-1.jpeg' alt="" />
               </div>
               <div className="lawyer-info">
-                <span className="lawyername">John Doe</span>
 
                 <div className="borderr lawyercolumn">
-                <span className="lawyerpractice">Divorce Expert</span>
-                  <span className="lawyerpractice">20 years experience representing divorce cases</span>
+                <span className="lawyername">John Doe</span>
+                <span className="lawyerpractice italic">Divorce Expert</span>
+                  
 
                   <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
                 </div>

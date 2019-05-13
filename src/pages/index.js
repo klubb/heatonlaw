@@ -1,12 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+
 import SEO from "../components/seo"
 import Slider from '../components/imageSlider/Slider'
 import Main from '../components/Main/Main'
 import Lawyers from '../components/Lawyers/Lawyers'
+import Blogs from '../components/Blogs/Blogs'
+
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +17,9 @@ const IndexPage = () => (
     <Main />
     <hr className='main-spacer'/>
     <Lawyers />
+    <hr className='main-spacer'/>
+    <Blogs />
+    <hr className='main-spacer' />
   </Layout>
 )
 
