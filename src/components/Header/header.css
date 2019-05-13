@@ -306,3 +306,10 @@
     font-size: 10px;
   }
 }
+
+@media(max-width: 450px) {
+  .logo {
+    width: 160px;
+    height: auto;
+  }
+}

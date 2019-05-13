@@ -223,7 +223,7 @@ font-family: Playfair Display;
     }
 
     .mainslide {
-      height: 50vh;
+      /* height: 50vh; */
       justify-content: center;
     }
 

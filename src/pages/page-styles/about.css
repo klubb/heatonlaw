@@ -17,6 +17,7 @@
     display: flex;
     margin-left: 18vw;
     flex-direction: column;
+    
 }
 
 .about-info {
@@ -69,4 +70,19 @@ background-color: #84bac2 ;
     margin-left: 28px;
     margin-bottom: 10px;
     font-size: 22px;
+  }
+
+  @media(max-width: 700px) {
+      .about-image {
+          height: 50vh;
+          justify-content: center;
+      }
+
+      .about-text {
+          margin-left: 0;
+          text-align: center;
+          align-items: center;
+          
+          
+      }
   }

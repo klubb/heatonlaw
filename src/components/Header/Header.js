@@ -9,7 +9,7 @@ import { FaPhone, FaClock, FaBars } from "react-icons/fa"
 export default class Header extends Component {
 
         openMenu = () => {
-                document.getElementById('menu').style.height = '33%';
+                document.getElementById('menu').style.height = '335px';
                 
         }
 
@@ -102,13 +102,13 @@ export default class Header extends Component {
                 activeClassName="active"
                 to="/contact"
               >
-                Contact
+                <span className="dropbtn hvr-fade">Contact</span>
               </Link>
             </div>
 
             <div class="dropdown">
               <Link partiallyActive={true} activeClassName="active" to="/blog">
-                Blog
+              <span className="dropbtn hvr-fade">Blog</span>
               </Link>
             </div>
           </ul>
