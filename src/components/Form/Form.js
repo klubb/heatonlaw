@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import '../Main/main.css'
-import { Link } from "gatsby"
 import axios from 'axios';
 
 

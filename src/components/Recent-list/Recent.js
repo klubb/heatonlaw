@@ -6,7 +6,7 @@ const Recent = () => (
   <StaticQuery 
     query={
       graphql`
-      query RecentBlogIndexQuery {
+      query RecentBlogsIndexQuery {
         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
           totalCount
           edges {

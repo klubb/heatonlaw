@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Layout from "../layout"
 import './main.css'
 import { Link } from "gatsby"
 import { FaBalanceScale, FaCarCrash, FaUsers, FaFileContract, FaCopyright, FaUserInjured, FaBusinessTime, FaGavel} from "react-icons/fa";

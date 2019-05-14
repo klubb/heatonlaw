@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Layout from '../components/layout'
+import { graphql } from 'gatsby'
 import './blog-post.css'
 import { FaUser, FaRegClock } from "react-icons/fa";
 import Recent from '../components/Recent-list/Recent'
