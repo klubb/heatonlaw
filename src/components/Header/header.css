@@ -1,20 +1,22 @@
 .navbarContainer {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
-    height: 11vh;
+    height: 105px;
+    /* height: 11vh; */
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     border-bottom: #84bac2 solid 3px;
     position: fixed;
-    top: 4vh;
+    top: 38px;
     background-color: white;
     z-index: 100;
 }
 
 .blackheader {
     background-color: rgba( 63,63,63, 1);
-    height: 4vh;
+    /* height: 4vh; */
+    height: 38px;;
     display: flex;
     color: white;
     align-items: center;
@@ -33,7 +35,7 @@
   position: fixed;
   z-index: 1;
   top:0;
-  opacity: .9;
+  
   transition: 0.3s;
   overflow: hidden;
 }
