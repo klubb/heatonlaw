@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import "./Lawyers.css"
 import { Link } from "gatsby"
-import Portrait from './portrait.jpg'
 
 export default class Lawyers extends Component {
   render() {
