@@ -6,7 +6,7 @@ import '../templates/blog.css'
 import { FaUser, FaRegClock } from "react-icons/fa";
 import { graphql } from 'gatsby'
 import Recent from '../components/Recent-list/Recent'
-
+import SideNav from '../components/sideNav/sideNav'
 
 const BlogPage = ({data}) => (
   <Layout>
@@ -38,8 +38,13 @@ const BlogPage = ({data}) => (
         ))}
         
             </div>
-        
+
+            <div className='list-container'>
         <Recent />
+        <br/><br/><br/>
+          <SideNav />
+
+            </div>
         
         
     </div>

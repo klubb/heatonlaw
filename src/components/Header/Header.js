@@ -73,7 +73,7 @@ export default class Header extends Component {
             </div>
 
             <div class="dropdown">
-              <Link activeClassName="active" to="/page-2/">
+              <Link activeClassName="active" to="/practice-areas">
                 <span class="dropbtn hvr-fade">Practice Areas</span>
               </Link>
               <div class="dropdown-content">

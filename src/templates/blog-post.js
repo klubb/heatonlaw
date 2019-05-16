@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import './blog-post.css'
 import { FaUser, FaRegClock } from "react-icons/fa";
 import Recent from '../components/Recent-list/Recent'
+import SideNav from '../components/sideNav/sideNav'
 
 export default function Template({data}, props) {
   const post = data.markdownRemark
@@ -41,7 +42,12 @@ export default function Template({data}, props) {
     </div>
     
         
-    <Recent />
+    <div className='list-container'>
+        <Recent />
+        <br/><br/><br/>
+          <SideNav />
+
+            </div>
     
 </div>
     

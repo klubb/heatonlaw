@@ -84,6 +84,17 @@ a {
 	
   }
 
+  @media(max-width: 1024px) {
+	body {
+		margin-top: 10vh;
+	}
+  
+	
+	
+  }
+
+
+
   a { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
