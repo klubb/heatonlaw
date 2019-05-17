@@ -11,7 +11,7 @@ import {Link} from 'gatsby'
                     <div className="slide-text">
                         <h1 className='slideheading'>Experts in everything legal</h1>
                         <br/><br/>
-                        <p className='slideinfo'>Our team of expert attorneys and consultants will be glad to provide neccesary legal assistance.</p>
+                        <p className='slideinfo'>Our team of expert attorneys and consultants will be glad to provide the necessary legal assistance.</p>
                         <br/><br/>
                         <Link to='/contact/'><button className='slidebtn hvr-shutter-out-horizontal'>Request a free consultation</button></Link>
 

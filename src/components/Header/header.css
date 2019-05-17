@@ -1,5 +1,5 @@
 .navbarContainer {
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10);
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10); */
     height: 105px;
     /* height: 11vh; */
     width: 100%;
@@ -14,11 +14,11 @@
 }
 
 .blackheader {
-    background-color: rgba( 63,63,63, 1);
+    background-color: #f9f9f9;
     /* height: 4vh; */
-    height: 38px;;
+    height: 37px;
     display: flex;
-    color: white;
+    /* color: white; */
     align-items: center;
     font-family: Poppins;
     justify-content: center;
@@ -26,6 +26,7 @@
     top: 0px;
     width: 100%;
     z-index: 100;
+    border-bottom: 2px solid #ececec;
     
 }
 
@@ -105,24 +106,30 @@
 
 
 .phone {
-    background-color: #84bac2;
-    width: 250px;
+    
     height: 100%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     position: absolute;
     right: 25%;
     font-family: Open Sans;
     font-weight: 500;
-   
+    
     
     
 }
 
-.phone h1 {
-    margin-left: 15px;
+
+.phone > h1 {
+  margin-right: 25px;
 }
+
+.phone-icon {
+  font-size: 14px;
+}
+
+
 
 .blackheader > h1 {
     font-size: 12px;
@@ -141,6 +148,8 @@
     font-family: Open Sans;
     cursor: pointer;
     font-size: 18px;
+    
+    color: rgba( 63,63,63, 1);
     /* background-color: red; */
     align-items: center;
 }

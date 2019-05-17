@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./header.css"
 import logo from "./heaton-law.png"
 import { Link } from "gatsby"
-import { FaPhone, FaClock, FaBars } from "react-icons/fa"
+import { FaPhone, FaClock, FaBars, FaRegEnvelope } from "react-icons/fa"
 
 
 
@@ -26,7 +26,9 @@ export default class Header extends Component {
           <div className="divspacer" />
           <div className="spacer" />
           <div className="phone">
-            <FaPhone /> <h1> (801) -709-4117</h1>
+            <FaRegEnvelope className='icons' /> <h1>info@yourdomain.com</h1>
+            
+            <FaPhone className='icons phone-icon' /> <h1> (801) -709-4117</h1>
           </div>
         </div>
         <div className="navbarContainer">
