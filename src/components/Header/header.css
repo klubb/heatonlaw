@@ -117,7 +117,7 @@
     align-items: center;
     position: absolute;
     right: 25%;
-    font-family: Open Sans;
+    font-family: Poppins;
     font-weight: 500;
    
     
@@ -127,6 +127,7 @@
 
 .phone > h1 {
   margin-right: 25px;
+  opacity: .6;
 }
 
 .phone-icon {
@@ -137,7 +138,7 @@
 
 .blackheader > h1 {
     font-size: 12px;
-    opacity: .5;
+    opacity: .6;
 
 }
 
