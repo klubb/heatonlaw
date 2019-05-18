@@ -1,6 +1,6 @@
 .navbarContainer {
     height: 105px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -9,7 +9,6 @@
     top: 38px;
     background-color: white;
     z-index: 100;
-    overflow: hidden;
 }
 
 #header {
@@ -35,7 +34,7 @@
 
 .nav-dropdown {
   height: 0;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   z-index: 1;
   top:0;
@@ -45,7 +44,6 @@
 
 .nav-items {
   margin-top: 25px;
-  width: 100vw;
 }
 
 .nav-dropdown a {
