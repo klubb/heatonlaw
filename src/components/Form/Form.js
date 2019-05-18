@@ -52,7 +52,7 @@ import axios from 'axios';
         return (
             <div className='main-form'>
             <div class="form-container">
-             <div className="form-text">
+             <div className="about-text">
              <h1 className='form-header'>Get in touch today.</h1>
              <h1 className='form-subheader'>Have our trusted and highly regarded global law firm help you today.</h1>
              </div>

@@ -6,7 +6,7 @@ import {Link} from 'gatsby';
 
 const Litigation = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Our Expert Team" keywords={[`expert`, `team`, `heaton law`]} />
     <div className='about-image'>
         <div className='about-text'> 
           <h1 className='form-header'>About Us</h1>

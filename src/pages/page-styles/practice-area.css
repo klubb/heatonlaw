@@ -1,4 +1,27 @@
+.pa-background {
+    background: url('../../images/lawyer3.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
+}
+
+.pa-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18vw;
+    
+}
+
+.pa-header {
+        font-size: 75px;
+      font-family: Playfair Display;
+      margin-bottom: 25px;
+      color: white;
+}
 
 main {
     height: 100%;
@@ -32,7 +55,8 @@ main > div {
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    /* transform: translateY(-2px); */
+    
     cursor: pointer;
 }
 
@@ -56,3 +80,23 @@ main > div {
         width: 100%;
     }
 } 
+
+@media(max-width: 700px) {
+    
+
+    .pa-text {
+        margin-left: 0;
+        text-align: center;
+        align-items: center;
+        
+        
+    }
+}
+
+@media(max-width: 1025px) {
+    
+
+    .pa-header {
+        font-size: 60px;
+    }
+}

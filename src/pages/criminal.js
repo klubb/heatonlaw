@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const Criminal = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Criminal Law" keywords={[`gatsby`, `application`, `react`]} />
    <CriminalLaw />
     
   </Layout>

@@ -10,7 +10,7 @@ import SideNav from '../components/sideNav/sideNav'
 
 const BlogPage = ({data}) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Blog" keywords={[`blog`, `news`, `heaton law`]} />
 
     <div className='blog-container'>
     

@@ -33,7 +33,7 @@
     border-radius: 2px;
     height: 25px;
     width: 25px;
-    border-left: 3px solid rgba(0, 0, 0, .4);
+    border-left: 3px solid rgba(0, 0, 0, .2);
 }
 
 .news-date {
@@ -44,6 +44,7 @@
     margin-right: 15px;
     font-family: Source Sans Pro;
     text-align: center;
+    color: white;
 }
 
 .news-header {

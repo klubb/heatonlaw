@@ -10,9 +10,11 @@ import Lawyers from '../components/Lawyers/Lawyers'
 import Blogs from '../components/Blogs/Blogs'
 
 
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    
+    <SEO title="Home" keywords={[`heaton law group`, `heaton`, `law firm`]} />
     <Slider />
     <Main />
     <hr className='main-spacer'/>
@@ -20,6 +22,7 @@ const IndexPage = () => (
     <hr className='main-spacer'/>
     <Blogs />
     <hr className='main-spacer' />
+    
   </Layout>
 )
 

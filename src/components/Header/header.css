@@ -115,7 +115,7 @@
     right: 25%;
     font-family: Open Sans;
     font-weight: 500;
-    
+   
     
     
 }
@@ -322,5 +322,15 @@
   .logo {
     width: 160px;
     height: auto;
+  }
+}
+
+@media(max-width: 980px) {
+  .phone {
+    right: 10%;
+  }
+
+  .divspacer {
+    margin-left: 200px;
   }
 }

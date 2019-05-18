@@ -8,10 +8,17 @@ import dispute from '../images/lawfirm-dispute.jpg'
 import injury from '../images/lawfirm-injury.jpg'
 import auto from '../images/lawfirm-auto.jpg'
 
+
 const SecondPage = () => (
   <Layout>
-    <SEO title="practice-areas" />
+    <SEO title="Practice Areas" />
+          <div className="pa-background">
+            <div className='pa-text'>
+            <h1 className='pa-header'>Here's what you can expect from us.</h1>
+            <p className='form-subheader'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
+            </div>
+          </div>
       <main>
         <div>
         <div className="card">
@@ -21,6 +28,7 @@ const SecondPage = () => (
             <p className="card-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero temporibus iure perspiciatis corporis vitae totam ratione, dolorum minima, cumque vero ut! Neque ullam quo ea fuga minima eum rerum animi.
             </p>
+            <Link to='/criminal' className='hvr-underline-reveal readmore blog-readmore'>Read More...</Link>
             </div>
             
         </div>
@@ -32,6 +40,7 @@ const SecondPage = () => (
             <p className="card-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero temporibus iure perspiciatis corporis vitae totam ratione, dolorum minima, cumque vero ut! Neque ullam quo ea fuga minima eum rerum animi.
             </p>
+            <Link to='/auto-accident' className='hvr-underline-reveal readmore blog-readmore'>Read More...</Link>
             </div>
         </div>
 
@@ -42,6 +51,7 @@ const SecondPage = () => (
             <p className="card-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero temporibus iure perspiciatis corporis vitae totam ratione, dolorum minima, cumque vero ut! Neque ullam quo ea fuga minima eum rerum animi.
             </p>
+            <Link to='/injury' className='hvr-underline-reveal readmore blog-readmore'>Read More...</Link>
             </div>
         </div>
 
@@ -52,6 +62,7 @@ const SecondPage = () => (
             <p className="card-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero temporibus iure perspiciatis corporis vitae totam ratione, dolorum minima, cumque vero ut! Neque ullam quo ea fuga minima eum rerum animi.
             </p>
+            <Link to='/litigation' className='hvr-underline-reveal readmore blog-readmore'>Read More...</Link>
             </div>
         </div>
 
@@ -62,6 +73,7 @@ const SecondPage = () => (
             <p className="card-desc">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero temporibus iure perspiciatis corporis vitae totam ratione, dolorum minima, cumque vero ut! Neque ullam quo ea fuga minima eum rerum animi.
             </p>
+            <Link to='/litigation' className='hvr-underline-reveal readmore blog-readmore'>Read More...</Link>
             </div>
         </div>
         </div>

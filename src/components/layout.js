@@ -8,11 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
+import { Helmet } from "react-helmet"
 import Header from "./Header/Header"
 import Footer from "./Footer/Footer"
 import "./layout.css"
-
+import favicon from './Header/heaton-law.png'
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -26,9 +26,10 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
+       <Helmet link={[{ rel: "icon", type: "image/png", sizes: "16x16", href: `${favicon}` }]} />
         <Header siteTitle={data.site.siteMetadata.title} />
        {children}
-       <Footer />
+       {/* <Footer /> */}
       </>
     )}
   />
