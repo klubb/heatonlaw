@@ -1,8 +1,6 @@
 .navbarContainer {
-    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.10); */
     height: 105px;
-    /* height: 11vh; */
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -11,6 +9,7 @@
     top: 38px;
     background-color: white;
     z-index: 100;
+    overflow: hidden;
 }
 
 #header {
@@ -36,17 +35,17 @@
 
 .nav-dropdown {
   height: 0;
-  width: 100%;
+  width: 100vw;
   position: fixed;
   z-index: 1;
   top:0;
-  
   transition: 0.3s;
   overflow: hidden;
 }
 
 .nav-items {
   margin-top: 25px;
+  width: 100vw;
 }
 
 .nav-dropdown a {
@@ -78,7 +77,6 @@
   margin-left: 50px;
 }
 
-
 #menu {
   background-color: white;
   
@@ -103,7 +101,6 @@
 } 
 
 
-
 .divspacer {
   margin-left: 300px;
 }
@@ -119,11 +116,8 @@
     right: 25%;
     font-family: Poppins;
     font-weight: 500;
-   
-    
-    
+      
 }
-
 
 .phone > h1 {
   margin-right: 25px;
@@ -133,8 +127,6 @@
 .phone-icon {
   font-size: 14px;
 }
-
-
 
 .blackheader > h1 {
     font-size: 12px;
