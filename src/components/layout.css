@@ -27,7 +27,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	margin-top: 145px;
+	margin-top: 150px;
 	overflow-x: hidden;
 	
 }
@@ -83,7 +83,7 @@ a {
 
 @media(max-width: 748px) {
 	body {
-		margin-top: 108px;
+		margin-top: 99px;
 	}
   
 	
