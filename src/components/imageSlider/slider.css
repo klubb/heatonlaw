@@ -83,7 +83,7 @@
 }
 
 .btn-black {
-  background-color: #2a2a2a; 
+  background-color: #373737; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -98,10 +98,12 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
 
-.cta-buttons button:hover {
+.slidebtn:hover {
   background-color: #373737;
   transition: ease-in 0.1s;
 }
+
+
 
 
 .hvr-sweep-to-right {

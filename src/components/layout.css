@@ -81,7 +81,7 @@ a {
 	text-decoration: none;
 }
 
-@media(max-width: 748px) {
+@media(max-width: 821px) {
 	body {
 		margin-top: 99px;
 	}

@@ -19,7 +19,7 @@ import { FaMapMarkerAlt, FaBalanceScale } from "react-icons/fa";
                        
                         
 
-                        <Link activeClassName="active" to='/contact'><button className='btn-black '>Free Consultation</button></Link>
+                        <Link activeClassName="active" to='/contact'><button className='slidebtn '>Free Consultation</button></Link>
                         </div>
                         
 
