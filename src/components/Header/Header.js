@@ -10,7 +10,7 @@ export default class Header extends Component {
 
         openMenu = () => {
                 document.getElementById('menu').style.height = '335px';
-                document.getElementById('header').style.marginBottom = '220px';
+                document.getElementById('header').style.marginBottom = '230px';
                 
         }
 

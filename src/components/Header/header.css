@@ -12,7 +12,7 @@
 }
 
 #header {
-  transition:margin-bottom .3s; 
+  transition:margin-bottom .2s; 
 }
 
 .blackheader {
@@ -38,7 +38,7 @@
   position: fixed;
   z-index: 1;
   top:0;
-  transition: 0.3s;
+  transition: .3s;
   overflow: hidden;
 }
 
@@ -76,7 +76,7 @@
 }
 
 #menu {
-  background-color: white;
+  background-color: white
   
 }
 
