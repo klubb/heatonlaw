@@ -18,7 +18,7 @@
 
 .mainslide {
   /* height: 62vh; */
-  height: 600px;
+  height: 650px;
   width: 100%;
   background: url('../../images/lawyermain.jpg');
   display: flex;
@@ -42,49 +42,67 @@
   align-items: flex-start;
   flex-direction: column;
   /* background-color: red; */
-  
-  
 }
 
-.slideheading {
-  font-size: 80px;
-  color: white;
-  /* font-family: Roboto; */
-  width: 40vw;
-font-family: Playfair Display;
-/* background-color: pink; */
 
+
+.slideheading {
+  font-size: 85px;
+  color: white;
+  width: 40vw;
+  font-family: Playfair Display;
+  
 }
 
 .slideinfo {
   color: white;
-  font-family: Open Sans;
+  font-family: Raleway;
   width: 30vw;
-  font-size: 22px;
-  /* font-style: italic; */
-  /* text-shadow: 1px 1px 1px rgb(0,0,0, 0.6); */
-  line-height: 25px;
- /* font-weight: 400; */
- 
- /* background-color: blue; */
+  font-size: 24px;
+  line-height: 30px;
+ margin: 10px 0px 10px 0px
  
 }
+
+
 
 .slidebtn {
   background-color: #84bac2 ; 
   color: white;
-  padding: 15px 32px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
-  text-transform: uppercase;
+  width: 250px;
   font-size: 16px;
-  font-family: Poppins;
-  
+  font-family: Raleway;
+  margin: 0px 25px 25px 0px;
   cursor: pointer;
   border-style: none;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
 }
+
+.btn-black {
+  background-color: #2a2a2a; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 250px;
+  font-size: 16px;
+  font-family: Raleway;
+  margin: 0px 25px 25px 0px;
+  cursor: pointer;
+  border-style: none;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
+}
+
+.cta-buttons button:hover {
+  background-color: #373737;
+  transition: ease-in 0.1s;
+}
+
 
 .hvr-sweep-to-right {
   display: inline-block;
@@ -134,7 +152,7 @@ font-family: Playfair Display;
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #84bac2 ;
+  /* background: #84bac2 ; */
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.2s;
@@ -190,6 +208,13 @@ font-family: Playfair Display;
     padding: 15px 15px;
   }
 
+  .btn-black {
+    letter-spacing: 1px;
+    padding: 15px 15px;
+  }
+.cta-buttons {
+  max-width: 800px;
+}
 
 }
 
@@ -198,6 +223,20 @@ font-family: Playfair Display;
   .mainslide {
     height: 70vh;
   }
+
+}
+
+@media (max-width: 691px) {
+ .slidebtn {
+   width: 100%;
+   margin-right: 0px;
+ }
+
+ .btn-black {
+  width: 100%;
+   margin-right: 0px;
+}
+
 }
 
 @media (max-width: 950px) {
@@ -223,15 +262,24 @@ font-family: Playfair Display;
 
     .slidebtn {
       
-      padding: 10px;
-      
+      padding: 15px;
+      width: 90%;
       font-size: 14px;
       
     }
 
+    .btn-black {
+      padding: 15px;
+      width: 90%;
+      font-size: 14px;
+      
+    }
+
+
     .mainslide {
-      /* height: 50vh; */
+      height: 700px;
       justify-content: center;
+
     }
 
     .slide-text {

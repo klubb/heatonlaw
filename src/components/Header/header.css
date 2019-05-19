@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border-bottom: #84bac2 solid 3px;
+    /* border-bottom: #84bac2 solid 3px; */
     position: fixed;
     top: 38px;
     background-color: white;
@@ -94,7 +94,7 @@
 }
 
  .spacer {
-  width: 32vw;
+  width: 33vw;
   
 } 
 
@@ -112,14 +112,14 @@
     align-items: center;
     position: absolute;
     right: 25%;
-    font-family: Poppins;
-    font-weight: 500;
+    font-family: Raleway;
+    
       
 }
 
 .phone > h1 {
   margin-right: 25px;
-  opacity: .6;
+  
 }
 
 .phone-icon {
@@ -140,7 +140,7 @@
 
 .navLinks {
     display: flex;
-    font-family: Open Sans;
+    font-family: Raleway;
     cursor: pointer;
     font-size: 18px;
     
