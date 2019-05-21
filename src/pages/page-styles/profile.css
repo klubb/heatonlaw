@@ -23,7 +23,7 @@
 
 .profile-name {
     font-family: Playfair Display;
-    
+    margin-right: 20px;
     margin-left: 285px;
 }
 
@@ -94,6 +94,10 @@
 
     .profile-name {
         margin-left: 0;
+    }
+
+    .profile-container {
+        height: 800px;
     }
 
 }
