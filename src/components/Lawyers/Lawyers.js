@@ -35,7 +35,7 @@ export default class Lawyers extends Component {
                 <p className="lawyerpractice italic">Criminal Law Expert</p>
                   
 
-                  <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
+                <Link to='/daniel-heaton'><button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button></Link>
                 
               </div>
             </div>
@@ -51,7 +51,7 @@ export default class Lawyers extends Component {
                 <span className="lawyerpractice italic">Civil Litigation Expert</span>
                   
 
-                  <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
+                  <Link to='/tim-heaton'><button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button></Link>
                 
               </div>
             </div>

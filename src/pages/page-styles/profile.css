@@ -1,0 +1,99 @@
+.profile-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.profile-info {
+    width: 1100px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    
+}
+
+
+
+.profile-name {
+    font-family: Playfair Display;
+    
+    margin-left: 285px;
+}
+
+.profile-name h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+
+}
+
+.profile-name h3 {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.profile-info p {
+    font-family: Raleway;
+    margin-top: 25px;
+    line-height: 25px;
+    margin-right: 30px;
+}
+
+.lawyers-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.lawyers {
+    width: 57%;
+    
+}
+
+.lawyers h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 260px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0px 25px 20px 0px;
+    
+}
+
+@media (max-width: 1190px) {
+    .profile-info {
+        width: 900px;
+    }
+}
+
+@media (max-width: 970px) {
+    .profile-info {
+        width: 800px;
+    }
+}
+
+@media (max-width: 850px) {
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-name {
+        margin-left: 0;
+    }
+
+}
