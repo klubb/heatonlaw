@@ -67,7 +67,7 @@
 
 
 .slidebtn {
-  background-color: #84bac2 ; 
+  background-color: #6b9b9f ; 
   color: white;
   padding: 20px;
   text-align: center;
@@ -76,6 +76,7 @@
   font-size: 16px;
   font-family: Raleway;
   margin: 0px 25px 25px 0px;
+  border-radius: 3px;
   cursor: pointer;
   border-style: none;
   letter-spacing: 1px;

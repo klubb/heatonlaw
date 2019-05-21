@@ -54,7 +54,7 @@
    margin: 60px 20px 0px 20px;
    font-family: Playfair Display;
    text-align: center;
-   line-height: 50px;
+   line-height: 55px;
 }
 
 .rightcontainer img {
@@ -105,13 +105,12 @@
 }
 
 .icon {
-    background-color: #84bac2;
-    padding: 10px;
-    border-radius: 2px;
+    background-color: #6b9b9f;
+    padding: 12px;
+    border-radius: 50%;
     height: 25px;
     width: auto;
-    border-left: 3px solid rgba(0, 0, 0, .4);
-
+    color: white;
 }
 
 .blockheader {
@@ -127,7 +126,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 15px;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
     
     border-radius: 4px;
     

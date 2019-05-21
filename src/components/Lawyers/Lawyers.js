@@ -31,9 +31,9 @@ export default class Lawyers extends Component {
               <div className="lawyer-info">
 
                 
-                <span className="lawyername">John Doe</span>
+                <span className="lawyername">Daniel Heaton</span>
                 <p className="lawyerpractice italic">Criminal Law Expert</p>
-                  {/* <span className="lawyerpractice">20 years experience representing criminal law cases</span> */}
+                  
 
                   <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
                 
@@ -47,9 +47,9 @@ export default class Lawyers extends Component {
               <div className="lawyer-info">
 
                 
-                <span className="lawyername">John Doe</span>
+                <span className="lawyername">Tim Heaton</span>
                 <span className="lawyerpractice italic">Civil Litigation Expert</span>
-                  {/* <span className="lawyerpractice">20 years experience representing civil litigation cases</span> */}
+                  
 
                   <button className="profilebtn hvr-shutter-out-horizontal">Let's Talk</button>
                 
@@ -63,7 +63,7 @@ export default class Lawyers extends Component {
               <div className="lawyer-info">
 
                 
-                <span className="lawyername">John Doe</span>
+                <span className="lawyername">Kaleb Manley</span>
                 <span className="lawyerpractice italic">Divorce Expert</span>
                   
 
@@ -77,9 +77,9 @@ export default class Lawyers extends Component {
 
         
       </div>
-      {/* <div className="ctabanner">
-        <h1 className='ctaeval'>Get a free evaluation of your case. Contact us now (801)-709-4117</h1>
-      </div> */}
+      <div className="ctabanner">
+        <h1 className='ctaeval'>Get a free evaluation of your case. Contact us now at (801)-709-4117</h1>
+      </div>
       </div>
     )
   }
