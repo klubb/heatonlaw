@@ -54,10 +54,8 @@
 }
 
 .lawyer-info-container {
-/* background-color: red; */
 width: 260px;
 display: flex;
-
 flex-direction: column;
 align-items: center;
 margin: 0px 5px 25px 5px;
@@ -89,7 +87,6 @@ margin: 0px 5px 25px 5px;
 }
 .lawyerflex {
     display: flex;
-    /* background-color: palevioletred; */
     width: 100%;
     justify-content: space-evenly;
 }
@@ -149,9 +146,8 @@ margin: 0px 5px 25px 5px;
 
 @media (max-width: 860px) {
     .lawyerflex {
-        flex-direction: column;
+    
         align-items: center;
-        
     }
 
     .whychoose {
@@ -165,5 +161,11 @@ margin: 0px 5px 25px 5px;
 
     .lawyerheading {
         font-size: 40px;
+    }
+}
+
+@media (max-width: 750px) {
+    .lawyerflex {
+        flex-direction: column;
     }
 }
